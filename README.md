@@ -1,6 +1,6 @@
 ## NavigationBar React Native
 <p align="center">
-    <img src ="" />
+    <img src ="https://media.giphy.com/media/l41K0Zx8KkKn2w2Gc/giphy.gif" />
 </p>
 
 ### Content
