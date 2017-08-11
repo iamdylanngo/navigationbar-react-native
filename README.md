@@ -40,6 +40,7 @@ const ComponentLeft = () => {
     </View>
   );
 };
+
 const ComponentCenter = () => {
   return(
     <View style={{ flex: 1, }}>
@@ -50,6 +51,7 @@ const ComponentCenter = () => {
     </View>
   );
 };
+
 const ComponentRight = () => {
   return(
     <View style={{ flex: 1, alignItems: 'flex-end', }}>
@@ -64,14 +66,13 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <NavigationHeader 
+        <NavigationBar 
           componentLeft     =     {<ComponentLeft />}
           componentCenter   =     {<ComponentCenter />}
           componentRight    =     {<ComponentRight />}
           navigationBarStyle=     {{ backgroundColor: ''#215e79'' }}
-          statusBarStyle    = {{ barStyle: 'light-content', backgroundColor: '#215e79' }},
+          statusBarStyle    =     {{ barStyle: 'light-content', backgroundColor: '#215e79' }},
         />
-        <Text>Welcome to React Native!</Text>
       </View>
     );
   }
