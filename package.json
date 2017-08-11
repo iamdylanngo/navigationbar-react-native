@@ -1,0 +1,32 @@
+{
+  "name": "navigationbar-react-native",
+  "version": "0.0.1",
+  "description": "Navigation bar in react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jundat95/navigationbar-react-native.git"
+  },
+  "keywords": [
+    "navigation-bar",
+    "react",
+    "react-native",
+    "android",
+    "ios",
+    "toolbar",
+    "mobile",
+    "customisable"
+  ],
+  "author": "Tinh Ngo <it.tinhngo@gmail.com> (http://www.jundat95.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jundat95/navigationbar-react-native/issues"
+  },
+  "homepage": "https://github.com/jundat95/navigationbar-react-native#readme",
+  "peerDependencies": {
+    "react-native": ">=0.29"
+  }
+}
