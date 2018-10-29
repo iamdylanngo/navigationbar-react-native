@@ -1,6 +1,6 @@
 {
   "name": "navigationbar-react-native",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Navigation bar in react native",
   "main": "index.js",
   "scripts": {
@@ -14,11 +14,8 @@
     "navigation-bar",
     "react",
     "react-native",
-    "android",
-    "ios",
-    "toolbar",
-    "mobile",
-    "customisable"
+    "header",
+    "header-bar"
   ],
   "author": "Tinh Ngo <it.tinhngo@gmail.com> (http://www.jundat95.com/)",
   "license": "MIT",

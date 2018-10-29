@@ -1,6 +1,6 @@
 ## NavigationBar React Native
 <p align="center">
-    <img src ="https://media.giphy.com/media/l41K0Zx8KkKn2w2Gc/giphy.gif" />
+    <img src ="./images/navigationbar.png" />
 </p>
 
 ### Content
@@ -67,11 +67,11 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <NavigationBar 
-          componentLeft     =     {<ComponentLeft />}
-          componentCenter   =     {<ComponentCenter />}
-          componentRight    =     {<ComponentRight />}
-          navigationBarStyle=     {{ backgroundColor: ''#215e79'' }}
-          statusBarStyle    =     {{ barStyle: 'light-content', backgroundColor: '#215e79' }},
+          componentLeft     = { () =>  {<ComponentLeft />   }
+          componentCenter   = { () =>  {<ComponentCenter /> }
+          componentRight    = { () =>  {<ComponentRight />  }
+          navigationBarStyle= {{ backgroundColor: ''#215e79'' }}
+          statusBarStyle    = {{ barStyle: 'light-content', backgroundColor: '#215e79' }}
         />
       </View>
     );
@@ -82,9 +82,9 @@ class App extends Component {
 ### Properties
 * `statusBarStyle` (Object) - Style is object,
 * `navigationBarStyle` (Object) - Style is object,
-* `componentLeft` (Element) - Initial state (default: <View/>),
-* `componentCenter` (Element) - Initial state (default: <View/>),
-* `componentRight` (Element) - Initial state (default: <View/>),
+* `componentLeft` (function) - Initial state (default:  () => <View/>),
+* `componentCenter` (funtion) - Initial state (default: () => <View/>),
+* `componentRight` (funtion) - Initial state (default:  () => <View/>),
 
 ### Events
 
