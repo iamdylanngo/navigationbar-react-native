@@ -1,14 +1,20 @@
 ## NavigationBar React Native
+
+Headerbar, NavigationBar support for React Native
+
 <p align="center">
-    <img src ="./images/navigationbar.png" />
+    <img src ="https://media.giphy.com/media/NlqsYiyrmGmjroqbsY/giphy.gif" />
 </p>
 
 ### Content
-- [Installation](#installation)
-- [Usage example](#usage-example)
-- [Properties](#properties)
-- [Events](#events)
-- [Questions?](#questions)
+- [NavigationBar React Native](#navigationbar-react-native)
+  - [Content](#content)
+  - [Installation](#installation)
+  - [Usage example](#usage-example)
+  - [Properties](#properties)
+  - [Events](#events)
+  - [License](#license)
+  - [Questions?](#questions)
 
 ### Installation
 ```bash
@@ -25,7 +31,7 @@ import {
   View, 
   TouchableOpacity,
 } from 'react-native';
-import NavigationBar from 'navigationbar-react-native';
+import { NavigationBar } from 'navigationbar-react-native';
 
 const ComponentLeft = () => {
   return(
@@ -67,10 +73,10 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <NavigationBar 
-          componentLeft     = { () =>  {<ComponentLeft />   }
-          componentCenter   = { () =>  {<ComponentCenter /> }
-          componentRight    = { () =>  {<ComponentRight />  }
-          navigationBarStyle= {{ backgroundColor: ''#215e79'' }}
+          componentLeft     = { () =>  <ComponentLeft />   }
+          componentCenter   = { () =>  <ComponentCenter /> }
+          componentRight    = { () =>  <ComponentRight />  }
+          navigationBarStyle= {{ backgroundColor: '#215e79' }}
           statusBarStyle    = {{ barStyle: 'light-content', backgroundColor: '#215e79' }}
         />
       </View>
